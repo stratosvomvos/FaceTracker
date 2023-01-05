@@ -3,13 +3,13 @@ A tf.js model for tracking faces
   
   ## USAGE ###
   
-<div>FaceTracker</div>
-<button type="button" onclick="init()">Start</button>
-<div id="webcam-container"></div>
-<div id="label-container"></div>
-<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
-<script type="text/javascript">
+#<div>FaceTracker</div>
+#<button type="button" onclick="init()">Start</button>
+#<div id="webcam-container"></div>
+#<div id="label-container"></div>
+#<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+#<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+#<script type="text/javascript">
   
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
@@ -61,7 +61,7 @@ A tf.js model for tracking faces
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
-</script>
+#</script>
 
 ## GET THE FILE ##
  You could download ftracker.zip or use the link https://teachablemachine.withgoogle.com/models/FdKO9rkHW/
