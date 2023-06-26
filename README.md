@@ -67,5 +67,3 @@ https://teachablemachine.withgoogle.com/models/H4BbF7nYM/
 </script>
 
 
-## GET THE FILE ##
- You could download ftracker.zip or use the link https://teachablemachine.withgoogle.com/models/FdKO9rkHW/ to use it online
