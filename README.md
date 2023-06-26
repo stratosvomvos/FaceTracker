@@ -1,20 +1,20 @@
-# FaceTracker V1
+# FaceTracker V2
 A tf.js model for tracking faces
   
   ## USAGE ###
   
-    <div>FaceTracker</div>
-    <button type="button" onclick="init()">Start</button>
-    <div id="webcam-container"></div>
-    <div id="label-container"></div>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
-    <script type="text/javascript">
-  
+    <div>FacetRacker</div>
+<button type="button" onclick="init()">Start</button>
+<div id="webcam-container"></div>
+<div id="label-container"></div>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest/dist/tf.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@latest/dist/teachablemachine-image.min.js"></script>
+<script type="text/javascript">
+    // More API functions here:
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
-    // the link to FaceTracker
-    const URL = "https://teachablemachine.withgoogle.com/models/FdKO9rkHW/";
+    // the link to your model provided by Teachable Machine export panel
+    const URL = "https://teachablemachine.withgoogle.com/models/H4BbF7nYM/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -61,7 +61,8 @@ A tf.js model for tracking faces
             labelContainer.childNodes[i].innerHTML = classPrediction;
         }
     }
-    </script>
+</script>
+
 
 ## GET THE FILE ##
  You could download ftracker.zip or use the link https://teachablemachine.withgoogle.com/models/FdKO9rkHW/ to use it online
