@@ -1,5 +1,8 @@
 # FaceTracker V2
 A tf.js model for tracking faces
+# Demo #
+https://teachablemachine.withgoogle.com/models/H4BbF7nYM/
+
   
   ## USAGE ###
   
